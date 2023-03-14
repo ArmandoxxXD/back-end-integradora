@@ -55,6 +55,12 @@ public class UserEntityService {
         return new JwtTokenDto(token);
     }
 
+    /* public UserEntity delete(CreateUserDto dto) throws AttributeException{
+        return userEntityRepository.delete(null);;
+    }
+    */
+   
+
     private int autoIncrement(){
         List<UserEntity> users= userEntityRepository.findAll();
         return users.isEmpty()? 1:users.stream().max(Comparator.comparing(UserEntity::getId)).get().getId()+1;

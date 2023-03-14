@@ -2,11 +2,12 @@ package com.integradora.gimnasio.security.entity;
 
 import java.util.List;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import com.integradora.gimnasio.security.enums.RolEnum;
 
-import jakarta.persistence.Id;
+
 
 @Document(collection = "usuarios")
 public class UserEntity {
