@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.integradora.gimnasio.GimnasioApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.052 s - in com.integradora.gimnasio.GimnasioApplicationTests
